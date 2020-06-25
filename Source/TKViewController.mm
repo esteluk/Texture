@@ -7,14 +7,14 @@
 //  Licensed under Apache 2.0: http://www.apache.org/licenses/LICENSE-2.0
 //
 
-#import <AsyncDisplayKit/ASViewController.h>
+#import <AsyncDisplayKit/TKViewController.h>
 #import <AsyncDisplayKit/ASDisplayNode+FrameworkPrivate.h>
 #import <AsyncDisplayKit/ASLog.h>
 #import <AsyncDisplayKit/ASRangeControllerUpdateRangeProtocol+Beta.h>
 #import <AsyncDisplayKit/ASInternalHelpers.h>
 #import <AsyncDisplayKit/ASConfigurationInternal.h>
 
-@implementation ASViewController
+@implementation TKViewController
 {
   BOOL _ensureDisplayed;
   BOOL _automaticallyAdjustRangeModeBasedOnViewEvents;

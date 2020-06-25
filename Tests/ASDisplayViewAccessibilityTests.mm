@@ -339,7 +339,7 @@ extern void SortAccessibilityElements(NSMutableArray *elements);
   ASDisplayNode *node = [[ASDisplayNode alloc] init];
   node.automaticallyManagesSubnodes = YES;
   
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   window.rootViewController = vc;
   [window makeKeyAndVisible];
   [window layoutIfNeeded];
@@ -389,7 +389,7 @@ extern void SortAccessibilityElements(NSMutableArray *elements);
   ASScrollNode *node = [[ASScrollNode alloc] init];
   node.automaticallyManagesSubnodes = YES;
   
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   window.rootViewController = vc;
   [window makeKeyAndVisible];
   [window layoutIfNeeded];
@@ -494,7 +494,7 @@ extern void SortAccessibilityElements(NSMutableArray *elements);
   ASDisplayNode *node = [[ASDisplayNode alloc] init];
   node.automaticallyManagesSubnodes = YES;
   
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   window.rootViewController = vc;
   [window makeKeyAndVisible];
   [window layoutIfNeeded];
@@ -535,7 +535,7 @@ extern void SortAccessibilityElements(NSMutableArray *elements);
   ASDisplayNode *node = [[ASDisplayNode alloc] init];
   node.automaticallyManagesSubnodes = YES;
   
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   window.rootViewController = vc;
   [window makeKeyAndVisible];
   [window layoutIfNeeded];
@@ -597,7 +597,7 @@ extern void SortAccessibilityElements(NSMutableArray *elements);
   ASDisplayNode *node = [[ASDisplayNode alloc] init];
   node.automaticallyManagesSubnodes = YES;
   
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   window.rootViewController = vc;
   [window makeKeyAndVisible];
   [window layoutIfNeeded];

@@ -122,7 +122,7 @@
   node.layoutSpecBlock = ^(ASDisplayNode *node, ASSizeRange constrainedSize){
     return [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsZero child:pagerNode];
   };
-  ASViewController *vc = [[ASViewController alloc] initWithNode:node];
+  TKViewController *vc = [[TKViewController alloc] initWithNode:node];
   UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
   window.rootViewController = nav;
   [window makeKeyAndVisible];

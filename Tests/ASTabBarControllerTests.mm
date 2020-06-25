@@ -17,8 +17,8 @@
 @implementation ASTabBarControllerTests
 
 - (void)testTabBarControllerSelectIndex {
-  ASViewController *firstViewController = [ASViewController new];
-  ASViewController *secondViewController = [ASViewController new];
+  TKViewController *firstViewController = [TKViewController new];
+  TKViewController *secondViewController = [TKViewController new];
   NSArray *viewControllers = @[firstViewController, secondViewController];
   ASTabBarController *tabBarController = [ASTabBarController new];
   [tabBarController setViewControllers:viewControllers];
@@ -28,8 +28,8 @@
 }
 
 - (void)testTabBarControllerSelectViewController {
-  ASViewController *firstViewController = [ASViewController new];
-  ASViewController *secondViewController = [ASViewController new];
+  TKViewController *firstViewController = [TKViewController new];
+  TKViewController *secondViewController = [TKViewController new];
   NSArray *viewControllers = @[firstViewController, secondViewController];
   ASTabBarController *tabBarController = [ASTabBarController new];
   [tabBarController setViewControllers:viewControllers];

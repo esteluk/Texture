@@ -26,7 +26,7 @@ typedef ASTraitCollection * _Nonnull (^ASDisplayTraitsForTraitWindowSizeBlock)(C
  * More importantly, you can use it as a base class for all of your view controllers among which some use a node hierarchy and some don't.
  * See examples/ASDKgram project for actual implementation.
  */
-@interface ASViewController<__covariant DisplayNodeType : ASDisplayNode *> : UIViewController <ASVisibilityDepth>
+@interface TKViewController<__covariant DisplayNodeType : ASDisplayNode *> : UIViewController <ASVisibilityDepth>
 
 /**
  * ASViewController initializer.
@@ -86,7 +86,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface ASViewController (ASRangeControllerUpdateRangeProtocol)
+@interface TKViewController (ASRangeControllerUpdateRangeProtocol)
 
 /**
  * Automatically adjust range mode based on view events. If you set this to YES, the view controller or its node
